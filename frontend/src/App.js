@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import TaskApp from './components/TaskApp';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello nigga</h1>
+      <TaskApp/>
     </div>
   );
 }
